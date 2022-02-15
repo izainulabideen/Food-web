@@ -1,0 +1,64 @@
+/* .lms{
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    left: 0%;
+    width: 100px;
+    flex: 100%;
+    /* padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.lms .lms_text{
+    background: #2e3f48;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* margin: 2px 0px;
+}
+.lms span{
+    font-size: 20px;
+    color: #fff;
+}
+
+.lms .login{
+    background: #2e3f48;
+    width: 70px;
+    height: 50px;
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 2px 0px;
+    display: none;
+}
+/* .lms span{
+    font-size: 20px;
+    color: #fff;
+}
+.lms .signup{
+    background: #2e3f48;
+    width: 70px;
+    height: 50px;
+    /* display: flex; 
+    flex-direction: row;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 2px 0px;
+    display: none;
+}
+/* .lms span{
+    font-size: 20px;
+    color: #fff;
+} */

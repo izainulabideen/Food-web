@@ -1,0 +1,706 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: 'grand_hotel';
+    src: url('../fonts/GrandHotel-Regular.ttf');
+};
+body{
+    box-sizing: border-box;
+}
+.main1{
+    font-family: 'lato';
+    display: flex;
+    flex-wrap: wrap;
+    background: url('../image/foodie_bg.png');
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.main1_layer{
+    background-color: #cf000aab;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    padding-bottom: 70px;
+}
+.main1 .main1_layer .logo{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main1 .main1_layer .logo .logo_image{
+    width: 250px;
+    display: flex;
+}
+
+.main1 .main1_layer .nav{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'lato';
+}
+.main1 .main1_layer .logo .nav li{
+    list-style: none;
+    display: inline-flex;
+    justify-content: center;
+}
+.main1 .main1_layer .logo .nav a{
+    padding: 5px 10px;
+}
+/* //////////////////////// */
+
+.main1 .main1_layer .logo .nav li:hover a:hover{
+    background: #fff;
+    color: #e8565e;
+    
+}
+
+/* //////////////////////////// */
+
+.main1 .main1_layer .nav li a{
+    font-family: lato;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'lato';
+    font-weight: bold;
+    
+}
+
+/* ------------------------------------------------------ */
+
+.main1 .main1_layer .main1_heading{
+    color: #fff;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.main1 .main1_layer .main1_heading h1{
+    font-family: 'grand_hotel';
+    font-size: 150px;
+    letter-spacing: 15px;
+}
+.main1 .main1_layer .main1_heading p{
+    font-size: 20px;
+    font-family: 'lato';
+    margin: 0 30%;
+    text-align: center;
+    color: #fff;
+}
+.main1 .main1_layer .main1_heading button{
+    margin-top: 50px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'lato';
+    font-size: 20px;
+    color: #e8565e;
+    font-weight: bold;
+    background: #fff;
+}
+/* /////////////////////// */
+
+.main1 .main1_layer .main1_heading button:hover{
+    background: #e8565e;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* ////////////////////// */
+
+/* --------------------------------------------------------------- */
+
+
+
+.main1_next{
+    background: url('../image/2nd\ image\ foodie.png');
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: bottom;
+}
+.main1_next img{
+    width: 100%;
+    height: auto;
+}
+.main1_next .main1_next_layer{
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.808);
+}
+
+.main1_next .main1_next_layer .popular{
+    width: 100%;
+    padding-top: 30px;
+}
+.main1_next .main1_next_layer .popular .popular_header h2{
+    font-size: 80px;
+    letter-spacing: 7px;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main1_next .main1_next_layer .popular .popular_p p{
+    font-size: 20px;
+    font-family: 'lato';
+    text-align: center;
+    margin: 20px 30%;
+    color: #000;
+}
+.main1_next .main1_next_layer .popular_menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.main1_next .main1_next_layer .popular_menu .popular_menu_width{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex: 33%;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px 0px 100px 0px;
+    font-family: 'lato';
+}
+.main1_next .main1_next_layer .popular_menu .popular_menu_width .popular_img img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.main1_next .main1_next_layer .popular_menu .popular_menu_width .popular_menu_header{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+}
+
+.main1_next .main1_next_layer .popular_menu .popular_menu_width .popular_menu_p{
+    font-size: 20px;
+    font-family: 'lato';
+    padding: 5px 70px;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------- */
+
+
+
+.statistic{
+    font-family: 'lato';
+    background: url('../image/stat_image\ foodie.png');
+    display: flex;
+}
+.stat_layer{
+    width: 100%;
+    padding-bottom: 60px;
+    background: #cf000aab;
+}
+.statistic .stat_layer .stat_main1{
+    width: 100%;
+}
+.statistic .stat_layer .stat_main1 .stat_header h3{
+    font-size: 80px;
+    letter-spacing: 7px;
+    font-family: 'grand_hotel';
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.statistic .stat_layer .stat_main1 .stat_p p{
+    font-size: 20px;
+    font-family: 'lato';
+    text-align: center;
+    margin: 20px 30%;
+    color: #fff;
+}
+.statistic .stat_layer .stat_data{
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.statistic .stat_layer .stat_data .stat_adjust{
+    width: 33%;
+    border: 4px solid #fff;
+    width: 200px;
+    height: 200px;
+    border-style: dashed;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'lato';
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.statistic .stat_layer .stat_data .stat_adjust span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.statistic .stat_layer .stat_data .stat_adjust p{
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+
+/* ------------------------------------------ */
+
+
+
+.our_menu{
+    background: #eee6cc;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.our_menu .our_menu_header{
+    padding-top: 50px;
+}
+.our_menu .our_menu_header .our_menu_heading{
+    font-size: 80px;
+    letter-spacing: 7px;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.our_menu .our_menu_header .our_menu_p{
+    font-size: 20px;
+    font-family: 'lato';
+    text-align: center;
+    margin: 20px 30%;
+    color: #000;
+}
+
+.our_menu .our_menu_data{
+    width: 100%;
+    display: inline-flex;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'lato';
+}
+
+.our_menu .our_menu_data .our_menu_data_adjust{
+    display: inline-flex;
+    flex: 50%;
+    align-items: center;
+    font-family: 'lato';
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    padding: 10px 30px 30px 100px;
+}
+
+.our_menu .our_menu_data .our_menu_data_adjust .our_menu_data_img_adjust{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.our_menu .our_menu_data .our_menu_data_adjust .our_menu_data_detail_adjust{
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+}
+.our_menu .our_menu_data .our_menu_data_adjust .our_menu_data_detail_adjust .our_menu_data_header_adjust{
+    font-size: 40px;
+    letter-spacing: 7px;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+}
+
+
+/* -------------- --------------------- */
+
+
+
+.promo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.promo .promo_left{
+    width: 100%;
+    display: flex;
+    flex: 50%;
+    background: url('../image/promo\ foodie.png');
+    background-size: cover;
+    background-position: bottom;
+}
+.promo .promo_left_layer{
+    display: flex;
+    width: 100%;
+    flex: 50%;
+    background: #cf000aab;
+    height: 500px;
+}
+.promo .promo_right{
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+.promo .promo_right .promo_right_header{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'grand_hotel';
+    color: #e8565e
+}
+.promo .promo_right .promo_right_p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 50px;
+}
+.promo .promo_right .promo_right_button{
+    text-align: center;
+    padding: 20px 50px;
+}
+.promo .promo_right .promo_right_button button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: #e8565e;
+    color: #fff;
+}
+/* ///////////////////////////// */
+
+.promo .promo_right .promo_right_button button:hover{
+    background: #fff;
+    color: #e8565e;
+    border: 1px solid #e8565e;
+}
+
+/* ////////////////////////////// */
+/* --------------------------------------------------------- */
+
+.package_menu{
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    background: #eee6cc;
+}
+
+.package_menu .package_menu_header{
+    padding-top: 30px;
+}
+.package_menu .package_menu_header .package_menu_heading{
+    font-size: 60px;
+    letter-spacing: 7px;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.package_menu .package_menu_header .package_menu_p{
+    font-size: 20px;
+    font-family: 'lato';
+    text-align: center;
+    margin: 20px 30%;
+    color: #000;
+}
+
+.package_menu .package_menu_data{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.package_menu .package_menu_data .package_menu_data_adjust{
+    display: inline-flex;
+    flex-direction: column;
+    background: #faf5e4;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 25%;
+    padding: 40px 20px;
+    margin: 40px 50px;
+    border-radius: 20px;
+}
+.package_menu .package_menu_data .package_menu_data_adjust .package_menu_data_heading_adjust{
+    font-size: 40px;
+    letter-spacing: 7px;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+}
+.package_menu .package_menu_data .package_menu_data_adjust .package_menu_data_p_adjust{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.package_menu .package_menu_data .package_menu_data_adjust .package_menu_data_button_adjust button{
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #e8565e;
+    color: #fff;
+    padding: 10px 80px;
+}
+
+/* ///////////////////////// */
+
+.package_menu .package_menu_data .package_menu_data_adjust .package_menu_data_button_adjust button:hover{
+    background: #fff;
+    color: #e8565e;
+    border: 1px solid #e8565e;
+}
+
+/* ///////////////////////// */
+
+/* --------------------------------------------------- */
+
+.about{
+    width: 100%;
+    display: flex;
+    background: url(../image/about\ foodie.png);
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+.about .about_layer{
+    background: #fff;
+    display: flex;
+    flex: 100%;
+    padding: 50px 0px;
+    background: rgba(255, 255, 255, 0.808);
+    height: auto;
+}
+.about .about_layer .about_profile_adjust{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    margin: 20px 30%;
+}
+.about .about_layer .about_profile_adjust .about_profile_pic_adjust{
+    display: flex;
+}
+.about .about_layer .about_profile_adjust .about_profile_pic_adjust img{
+    border: none;
+    width: 200px;
+    border-radius: 50%;
+}
+.about .about_layer .about_profile_adjust .about_profile_p_adjust{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0px;
+}
+.about .about_layer .about_profile_adjust .about_profile_name_adjust{
+    font-size: 50px;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+}
+
+/* ----------------------------------------------------------- */
+
+
+/* .suscribe .suscribe_header .suscribe_heading .suscribe_p .suscribe_input_data .suscribe_input_email .suscribe_input_button{
+
+} */
+
+.suscribe{
+    background: #faf5e4;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.suscribe .suscribe_header{
+    padding-top: 50px;
+}
+.suscribe .suscribe_header .suscribe_heading{
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'grand_hotel';
+    color: #e8565e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.suscribe .suscribe_header .suscribe_p{
+    font-size: 20px;
+    font-family: 'lato';
+    text-align: center;
+    margin: 20px 30%;
+    color: #000;
+}
+
+.suscribe .suscribe_input_data{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.suscribe .suscribe_input_data .suscribe_input_email input{
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #e8565e;
+    outline: 1px solid #e8565e;
+}
+.suscribe .suscribe_input_data .suscribe_input_button{
+    margin-left: -22px;
+}
+
+/* //////////////////////// */
+
+.suscribe .suscribe_input_data .suscribe_input_button input:hover{
+    background: #fff;
+    color: #e8565e;
+    border: 1px solid #e8565e;
+    border-radius: 20px;
+}
+
+/* //////////////////////////// */
+
+.suscribe .suscribe_input_data .suscribe_input_button input{
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+    background: #e8565e;
+    padding: 12px 20px;
+}
+
+/* ------------------------------------------------------------ */
+
+
+/* .contact .contact_about .contact_about_heading .contact_about_p .contact_links .contact_link_adjust .contact_about_link .contact_service_link .contact_follow_link{
+
+} */
+
+.contact{
+    width: 100%;
+    display: flex;
+    background: #2a2a2a;
+    color: #fff;
+    font-family: 'lato';
+    padding: 50px 30px;
+    font-weight: lighter;
+    flex-wrap: wrap;
+}
+
+.contact .contact_about{
+    display: flex;
+    flex: 50%;
+    padding: 0px 60px 20px 60px;
+    flex-direction: column;
+}
+.contact .contact_about .contact_about_heading{
+    font-size: 30px;
+    font-family: 'grand_hotel';
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+}
+.contact .contact_links{
+    display: flex;
+    flex: 50%;
+    flex-wrap: wrap;
+}
+.contact .contact_links .contact_link_adjust{
+    list-style: none;
+    display: flex;
+    flex: 30%;
+    flex-direction: column;
+    margin: 2px;
+}
+.contact .contact_links .contact_link-heading_adjust{
+    font-size: 25px;
+    font-family: 'grand_hotel';
+    padding-bottom: 10px;
+}
+.contact .contact_links .contact_link_name_adjust li{
+    padding: 3px 0px;
+}
+.contact .contact_links .contact_link_name_adjust li a{
+    text-decoration: none;
+    color: #fff;
+}
+.contact .contact_links .contact_link_name_adjust li a:hover{
+    color: #e8565e;
+}
+.contact .contact_links .contact_follow_link .contact_follow_link_name{
+    display: flex;
+    flex-direction: column;
+}
+.contact .contact_follow_link .contact_follow_link_name a{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+}
+.contact .contact_follow_link .contact_follow_link_name a span{
+    margin-right: 4px;
+}
+
+.contact .contact_follow_link .contact_follow_link_name a:hover{
+    color: #e8565e;
+}
